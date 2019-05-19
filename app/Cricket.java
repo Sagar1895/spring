@@ -11,7 +11,8 @@ public class Cricket {
 		System.out.println("invoked param const with string");
 	}
 	public void setnoofplayers(int noofplayers) {
-		System.out.println("invoked noofplayers");
+		System.out.println("invoked noofplayers in a team");
+		system.out.println("invoked team");
 		this.noofplayers=noofplayers;
 	}
 	public void setteamname(String teamname) {
