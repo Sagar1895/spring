@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation=" http://www.springframework.org/schema/beans 
+	http://www.springframework.org/schema/beans/spring-beans.xsd
+	http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
+
+	<bean id="xworkz" class="com.xworkz.food.app.Xworkz">
+		<constructor-arg value="10"></constructor-arg>
+	</bean>
+
+	<bean id="home" class="com.xworkz.food.app.Home">
+		<constructor-arg value="Brindavana"></constructor-arg>
+		<constructor-arg value="21"></constructor-arg>
+	</bean>
+	<bean id="home2" class="com.xworkz.food.app.Home"></bean>
+
+<bean id="database" class="com.xworkz.food.app.database">
+<property name="name" value="oracle"></property>
+</bean>
+<bean id="cricket" class="com.xworkz.food.app.Cricket">
+<constructor-arg value="shark"></constructor-arg>
+<property name="teamname" value="sagar"></property>
+<property name="noofplayers" value="11"></property>
+</bean>
+</beans>
