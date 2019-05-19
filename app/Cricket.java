@@ -12,7 +12,8 @@ public class Cricket {
 	}
 	public void setnoofplayers(int noofplayers) {
 		System.out.println("invoked noofplayers in a team");
-		system.out.println("invoked team");
+		System.out.println("invoked team");
+		
 		this.noofplayers=noofplayers;
 	}
 	public void setteamname(String teamname) {
